@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<html>
+<head>
+	<title>第一个js代码</title>
+</head>
+<body>
+<p>JavaScript能够直接写入HTML输出流中</p>
+<input type="text" name="userName" id="demo" >
+<script type="text/javascript">
+var carname="dingbaomei";
+
+function testFucntion() {
+var x=document.getElementById('demo').value;
+if (x==""||isNaN(x)) {
+	alert("carname");
+		}
+}	
+
+function testFunctionParam (name,job){
+alert("欢迎你来找到"+name+job+carname);
+
+}
+</script>
+<button type="button" onclick="testFunctionParam('ding','bao')">提交</button>
+</body>
+</htm
